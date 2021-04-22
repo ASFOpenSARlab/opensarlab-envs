@@ -1,0 +1,23 @@
+name: rtc_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - jupyter
+  - kernda
+  - pip
+  - gdal
+  - matplotlib
+  - numpy
+  - pandas
+  - pyproj
+  - scikit-image
+  - scipy
+  - netcdf4
+  - rasterio
+  - plotly
+  - pip:
+    - mpldatacursor
+    - asf_hyp3
+    - hyp3-sdk~=1.0
