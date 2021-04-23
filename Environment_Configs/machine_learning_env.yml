@@ -1,0 +1,20 @@
+name: keras
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyter
+  - kernda
+  - pip
+  - gdal
+  - matplotlib
+  - numpy
+  - pandas
+  - pyproj
+  - scipy
+  - pip:
+    - tensorflow
+    - keras
+    - asf_hyp3
+    - hyp3-sdk~=1.0
