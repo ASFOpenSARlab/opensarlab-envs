@@ -1,0 +1,30 @@
+name: hydrosar
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - jupyter
+  - kernda
+  - pip
+  - gdal
+  - matplotlib
+  - numpy
+  - pandas
+  - pyproj
+  - scipy
+  - affine
+  - rasterio
+  - geopandas
+  - shapely
+  - pysheds
+  - astropy
+  - scikit-fuzzy
+  - google-api-python-client
+  - earthengine-api
+  - oauth2client
+  - pykrige
+  - pip:
+    - asf_hyp3
+    - hyp3-sdk~=1.0
+    - fiona
