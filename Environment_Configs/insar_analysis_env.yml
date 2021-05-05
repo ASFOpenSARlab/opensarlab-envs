@@ -23,6 +23,8 @@ dependencies:
   - boto3
   - joblib
   - shapely
+  - hyp3lib=1.4.1
+  - cython
   # pyaps dependencies
   - cdsapi
   - ecCodes
