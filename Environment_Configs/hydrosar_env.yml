@@ -24,6 +24,7 @@ dependencies:
   - earthengine-api
   - oauth2client
   - pykrige
+  - geoglows
   - pip:
     - asf_hyp3
     - hyp3-sdk~=1.0
