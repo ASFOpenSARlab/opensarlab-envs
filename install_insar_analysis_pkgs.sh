@@ -21,8 +21,11 @@ aria=$local"/ARIA-tools"
 if [ ! -d $aria ]
 then
     git clone https://github.com/aria-tools/ARIA-tools.git $aria
+    wd=$(pwd)
+    cd $aria
     conda run python $aria/setup.py build
     conda run python $aria/setup.py install
+    cd $wd
 fi
 
 # clone the ARIA-tools-docs repo
