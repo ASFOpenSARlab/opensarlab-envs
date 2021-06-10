@@ -65,19 +65,6 @@ fi
 # install pykml
 $env_prefix/bin/pip install pykml -e git+https://github.com/yunjunz/pykml.git#egg=pykml
 
-######## TRAIN ########
-
-train=$local"/TRAIN"
-
-#update local pythonpath variable
-pythonpath=$train"/src:"$pythonpath
-
-# clone TRAIN patched for Python3 in the OpenSARlab
-if [ ! -d $train ]
-then
-    git clone -b OpenSARlab --single-branch https://github.com/asfadmin/hyp3-TRAIN.git $train
-fi
-
 #######################
 
 # set PATH and PYTHONPATH
