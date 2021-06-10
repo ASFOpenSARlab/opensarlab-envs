@@ -1,0 +1,22 @@
+name: train
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python~=3.8
+  - jupyter
+  - kernda
+  - gdal=3.1.3
+  - numpy
+  - pandas
+  - pip
+  - importlib-metadata
+  - scipy
+  - netcdf4
+  - boto3
+  - lxml
+  - pyproj
+  - pip:
+    - asf_hyp3
+    - hyp3-sdk~=1.0
+    - hyp3lib==1.4.1
