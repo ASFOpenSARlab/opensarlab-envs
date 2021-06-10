@@ -14,7 +14,7 @@ dependencies:
   - pyproj
   - scipy
   - pip:
-    - tensorflow
+    - tensorflow==2.4.1
     - keras
     - asf_hyp3
     - hyp3-sdk~=1.0
