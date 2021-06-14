@@ -16,6 +16,7 @@ dependencies:
   - boto3
   - lxml
   - pyproj
+  - matplotlib
   - pip:
     - asf_hyp3
     - hyp3-sdk~=1.0
