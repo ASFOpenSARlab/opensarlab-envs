@@ -26,6 +26,8 @@ dependencies:
   - pykrige
   - geoglows
   - geoviews
+  - hvplot
+  - rioxarray
   - pip:
     - asf_hyp3
     - hyp3-sdk~=1.0
