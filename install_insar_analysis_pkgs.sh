@@ -9,7 +9,7 @@ site_packages=$env_prefix"/lib/python3.8/site-packages"
 
 # start building local path and pythonpath variables
 pythonpath=$site_packages/isce:$PYTHONPATH
-path=$site_packages/isce/applications:$PATH
+path=$site_packages/isce/applications:$env_prefix/bin:$PATH
 
 # set ISCE_HOME
 conda env config vars set -n $env ISCE_HOME=$site_packages/isce
