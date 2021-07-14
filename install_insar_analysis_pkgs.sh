@@ -28,6 +28,12 @@ then
     cd $wd
 fi
 
+path=$local"/ARIA-tools/tools/bin:"$local"/ARIA-tools/tools/ARIAtools:"$path
+pythonpath=$local"/ARIA-tools/tools:"$local"/ARIA-tools/tools/ARIAtools:"$pythonpath
+conda env config vars set -n $env GDAL_HTTP_COOKIEFILE=/tmp/cookies.txt
+conda env config vars set -n $env GDAL_HTTP_COOKIEJAR=/tmp/cookies.txt
+conda env config vars set -n $env VSI_CACHE=YES
+
 # clone the ARIA-tools-docs repo
 aria_docs="/home/jovyan/ARIA-tools-docs"
 if [ ! -d $aria_docs ]
