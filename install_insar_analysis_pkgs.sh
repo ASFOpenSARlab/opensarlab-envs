@@ -20,7 +20,7 @@ conda env config vars set -n $env ISCE_HOME=$site_packages/isce
 aria=$local"/ARIA-tools"
 if [ ! -d $aria ]
 then
-    git clone https://github.com/aria-tools/ARIA-tools.git $aria
+    git clone -b release-v1.1.2 https://github.com/aria-tools/ARIA-tools.git $aria
     wd=$(pwd)
     cd $aria
     conda run python $aria/setup.py build
