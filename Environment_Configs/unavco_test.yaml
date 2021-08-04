@@ -1,0 +1,8 @@
+name: unavco
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - jupyter
+  - kernda
