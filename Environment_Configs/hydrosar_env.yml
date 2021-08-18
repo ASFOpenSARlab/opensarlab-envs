@@ -30,5 +30,5 @@ dependencies:
   - rioxarray
   - pip:
     - asf_hyp3
-    - hyp3-sdk~=1.0
+    - hyp3-sdk
     - fiona

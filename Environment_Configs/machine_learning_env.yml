@@ -1,4 +1,4 @@
-name: keras
+name: machine_learning
 channels:
   - conda-forge
   - defaults
@@ -15,6 +15,6 @@ dependencies:
   - scipy
   - pip:
     - tensorflow==2.4.1
-    - keras
+    - keras==2.4.0
     - asf_hyp3
-    - hyp3-sdk~=1.0
+    - hyp3-sdk
