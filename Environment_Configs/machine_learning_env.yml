@@ -1,4 +1,4 @@
-name: keras
+name: machine_learning
 channels:
   - conda-forge
   - defaults
