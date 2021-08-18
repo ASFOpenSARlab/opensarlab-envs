@@ -41,4 +41,4 @@ dependencies:
     - git+https://github.com/insarlab/PySolid.git
     - git+https://github.com/tylere/pykml.git
     - asf_hyp3
-    - hyp3-sdk~=1.0
+    - hyp3-sdk
