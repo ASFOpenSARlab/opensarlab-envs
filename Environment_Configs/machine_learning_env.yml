@@ -16,5 +16,4 @@ dependencies:
   - pip:
     - tensorflow==2.4.1
     - keras==2.4.0
-    - asf_hyp3
     - hyp3-sdk

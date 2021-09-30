@@ -29,6 +29,5 @@ dependencies:
   - hvplot
   - rioxarray
   - pip:
-    - asf_hyp3
     - hyp3-sdk
     - fiona
