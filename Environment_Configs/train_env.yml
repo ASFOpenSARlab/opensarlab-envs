@@ -18,6 +18,5 @@ dependencies:
   - pyproj
   - matplotlib
   - pip:
-    - asf_hyp3
     - hyp3-sdk
     - hyp3lib==1.4.1

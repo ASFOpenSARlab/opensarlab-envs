@@ -38,5 +38,4 @@ dependencies:
   - zarr
   - mintpy
   - pip:
-    - asf_hyp3
     - hyp3-sdk
