@@ -19,5 +19,4 @@ dependencies:
   - plotly
   - pip:
     - mpldatacursor
-    - asf_hyp3
     - hyp3-sdk
