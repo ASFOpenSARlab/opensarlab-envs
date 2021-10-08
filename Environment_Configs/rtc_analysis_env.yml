@@ -20,3 +20,4 @@ dependencies:
   - pip:
     - mpldatacursor
     - hyp3-sdk
+    - asf_search
