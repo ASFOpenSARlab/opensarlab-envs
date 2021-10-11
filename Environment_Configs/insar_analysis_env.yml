@@ -37,6 +37,7 @@ dependencies:
   - pykdtree
   - xarray
   - zarr
+  - asf_search
   - pip:
     - git+https://github.com/insarlab/PySolid.git
     - git+https://github.com/tylere/pykml.git

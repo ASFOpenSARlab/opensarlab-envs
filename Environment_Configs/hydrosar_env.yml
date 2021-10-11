@@ -28,6 +28,7 @@ dependencies:
   - geoviews
   - hvplot
   - rioxarray
+  - asf_search
   - pip:
     - hyp3-sdk
     - fiona
