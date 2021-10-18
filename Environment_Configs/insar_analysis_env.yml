@@ -38,5 +38,6 @@ dependencies:
   - xarray
   - zarr
   - mintpy
+  - asf_search
   - pip:
     - hyp3-sdk

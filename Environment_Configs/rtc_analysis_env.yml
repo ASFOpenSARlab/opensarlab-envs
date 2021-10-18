@@ -19,6 +19,7 @@ dependencies:
   - netcdf4
   - rasterio
   - plotly
+  - asf_search
   - pip:
     - mpldatacursor
     - hyp3-sdk
