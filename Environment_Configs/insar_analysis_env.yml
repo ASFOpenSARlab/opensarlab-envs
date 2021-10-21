@@ -6,6 +6,8 @@ dependencies:
   - python>=3.6,<3.9
   - jupyter
   - kernda
+  - ipyfilechooser
+  - mgrs
   - isce2
   - pip
   - cartopy
@@ -25,20 +27,17 @@ dependencies:
   - shapely
   - hyp3lib=1.4.1
   - cython
-  # pyaps dependencies
   - cdsapi
   - ecCodes
   - netcdf4
   - pygrib
   - pyhdf
-  # pyresample dependencies
   - pyresample
   - openmp
   - pykdtree
   - xarray
   - zarr
+  - mintpy
   - asf_search
   - pip:
-    - git+https://github.com/insarlab/PySolid.git
-    - git+https://github.com/tylere/pykml.git
     - hyp3-sdk

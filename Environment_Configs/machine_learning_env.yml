@@ -6,6 +6,8 @@ dependencies:
   - python=3.8
   - jupyter
   - kernda
+  - ipyfilechooser
+  - mgrs
   - pip
   - gdal
   - matplotlib

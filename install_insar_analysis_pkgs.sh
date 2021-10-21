@@ -41,38 +41,6 @@ then
     git clone -b master --depth=1 --single-branch https://github.com/aria-tools/ARIA-tools-docs.git $aria_docs
 fi
 
-######## MintPy ########
-
-mintpy=$local"/MintPy"
-pyaps=$local"/PyAPS"
-proj=$local"/envs/"$env"/share/proj"
-
-# set MintPy env variables
-conda env config vars set -n $env MINTPY_HOME=$mintpy
-conda env config vars set -n $env PYAPS_HOME=$pyaps
-conda env config vars set -n $env PROJ_LIB=$proj
-
-#update local path and pythonpath variables
-path=$mintpy"/mintpy:"$path
-pythonpath=$mintpy":"$pyaps":"$pythonpath
-
-# clone MintPy
-if [ ! -d $mintpy ]
-then
-    git clone -b v1.3.0 --depth=1 --single-branch https://github.com/insarlab/MintPy.git $mintpy
-fi
-
-# clone pyaps
-if [ ! -d $pyaps ]
-then
-    git clone -b main --depth=1 --single-branch https://github.com/yunjunz/pyaps3.git $pyaps
-fi
-
-# install pykml
-$env_prefix/bin/pip install pykml -e git+https://github.com/yunjunz/pykml.git#egg=pykml
-
-#######################
-
 # set PATH and PYTHONPATH
 conda env config vars set -n $env PYTHONPATH=$pythonpath
 conda env config vars set -n $env PATH=$path
