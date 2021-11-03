@@ -34,3 +34,4 @@ dependencies:
   - pip:
     - hyp3-sdk
     - fiona
+    - opensarlab-lib

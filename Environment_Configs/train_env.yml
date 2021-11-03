@@ -21,3 +21,4 @@ dependencies:
   - pip:
     - hyp3-sdk
     - hyp3lib==1.4.1
+    - opensarlab-lib

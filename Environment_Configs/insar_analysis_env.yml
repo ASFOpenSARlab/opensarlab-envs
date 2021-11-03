@@ -41,3 +41,4 @@ dependencies:
   - asf_search
   - pip:
     - hyp3-sdk
+    - opensarlab-lib
