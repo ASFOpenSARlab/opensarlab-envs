@@ -35,3 +35,4 @@ dependencies:
     - hyp3-sdk
     - fiona
     - opensarlab-lib
+    - url-widget

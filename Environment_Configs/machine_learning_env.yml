@@ -21,3 +21,4 @@ dependencies:
     - keras==2.4.0
     - hyp3-sdk
     - opensarlab-lib
+    - url-widget

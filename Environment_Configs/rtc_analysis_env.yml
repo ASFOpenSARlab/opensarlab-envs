@@ -24,3 +24,4 @@ dependencies:
     - mpldatacursor
     - hyp3-sdk
     - opensarlab-lib
+    - url-widget

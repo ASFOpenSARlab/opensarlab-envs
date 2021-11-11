@@ -42,3 +42,4 @@ dependencies:
   - pip:
     - hyp3-sdk
     - opensarlab-lib
+    - url-widget
