@@ -20,6 +20,7 @@ dependencies:
   - rasterio
   - plotly
   - asf_search
+  - ipympl
   - pip:
     - mpldatacursor
     - hyp3-sdk

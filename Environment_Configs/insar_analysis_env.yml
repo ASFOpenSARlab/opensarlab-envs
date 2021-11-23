@@ -39,7 +39,8 @@ dependencies:
   - zarr
   - mintpy
   - asf_search
+  - ipympl
   - pip:
     - hyp3-sdk
-    - opensarlab-lib
     - url-widget
+    - opensarlab-lib
