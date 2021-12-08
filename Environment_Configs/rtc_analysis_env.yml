@@ -21,8 +21,8 @@ dependencies:
   - plotly
   - asf_search
   - ipympl
+  - opensarlab_lib
   - pip:
     - mpldatacursor
     - hyp3-sdk
-    - opensarlab-lib
     - url-widget

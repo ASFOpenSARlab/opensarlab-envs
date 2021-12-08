@@ -40,7 +40,7 @@ dependencies:
   - mintpy
   - asf_search
   - ipympl
+  - opensarlab_lib
   - pip:
     - hyp3-sdk
     - url-widget
-    - opensarlab-lib

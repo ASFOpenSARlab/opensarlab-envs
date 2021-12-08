@@ -19,6 +19,8 @@ dependencies:
   - matplotlib
   - asf_search
   - ipympl
+  - opensarlab_lib
   - pip:
     - hyp3-sdk
     - hyp3lib==1.4.1
+    - url-widget

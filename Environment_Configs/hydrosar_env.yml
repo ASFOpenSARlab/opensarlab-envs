@@ -32,8 +32,8 @@ dependencies:
   - rioxarray
   - asf_search
   - ipympl
+  - opensarlab_lib
   - pip:
     - hyp3-sdk
     - fiona
-    - opensarlab-lib
     - url-widget
