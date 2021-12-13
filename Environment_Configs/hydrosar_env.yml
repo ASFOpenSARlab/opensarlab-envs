@@ -33,7 +33,7 @@ dependencies:
   - asf_search
   - ipympl
   - opensarlab_lib
-  - hyp3-sdk
+  - hyp3_sdk
   - pip:
     - fiona
     - url-widget
