@@ -41,6 +41,6 @@ dependencies:
   - asf_search
   - ipympl
   - opensarlab_lib
+  - hyp3-sdk
   - pip:
-    - hyp3-sdk
     - url-widget
