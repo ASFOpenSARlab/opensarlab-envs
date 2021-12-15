@@ -14,8 +14,7 @@ dependencies:
   - cvxopt
   - dask>=1.0
   - dask-jobqueue>=0.3
-  - defusedxml
-  - h5py<3
+  - defusedxml  
   - lxml
   - matplotlib
   - numpy
@@ -37,10 +36,11 @@ dependencies:
   - pykdtree
   - xarray
   - zarr
-  - mintpy
   - asf_search
   - ipympl
   - opensarlab_lib
   - hyp3_sdk
   - pip:
     - url-widget
+    - h5py<3
+    - mintpy
