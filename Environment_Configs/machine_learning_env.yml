@@ -16,7 +16,10 @@ dependencies:
   - pyproj
   - scipy
   - asf_search
+  - ipympl
+  - opensarlab_lib
+  - hyp3_sdk
   - pip:
     - tensorflow==2.4.1
     - keras==2.4.0
-    - hyp3-sdk
+    - url-widget
