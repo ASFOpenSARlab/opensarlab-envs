@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python>=3.8
+  - python>=3.9
   - jupyter
   - kernda
   - ipyfilechooser
@@ -31,6 +31,9 @@ dependencies:
   - hvplot
   - rioxarray
   - asf_search
+  - ipympl
+  - opensarlab_lib
+  - hyp3_sdk
   - pip:
-    - hyp3-sdk
     - fiona
+    - url-widget

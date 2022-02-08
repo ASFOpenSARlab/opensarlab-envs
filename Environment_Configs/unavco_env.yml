@@ -14,7 +14,6 @@ dependencies:
   - dask>=1.0
   - dask-jobqueue>=0.3
   - defusedxml
-  - h5py<3
   - lxml
   - matplotlib
   - numpy
@@ -41,10 +40,11 @@ dependencies:
   - xarray
   - zarr
   - pv
-  - asf_search
-  - mintpy
+  - hyp3_sdk
+  - ipympl
   - pip:
-    - git+https://github.com/pyrocko/kite
     - okada_wrapper
-    - hyp3-sdk
+    - git+https://github.com/pyrocko/kite
+    - mintpy
+    - h5py<3
     - ipynb
