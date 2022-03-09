@@ -23,6 +23,8 @@ dependencies:
   - ipympl
   - opensarlab_lib
   - hyp3_sdk
+  - geopandas
+  - shapely
   - pip:
     - mpldatacursor
     - url-widget
