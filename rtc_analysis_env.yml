@@ -1,0 +1,32 @@
+name: rtc_analysis
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.9
+  - jupyter
+  - kernda
+  - ipyfilechooser
+  - mgrs
+  - pip
+  - gdal
+  - matplotlib
+  - numpy
+  - pandas
+  - pyproj
+  - scikit-image
+  - scipy
+  - netcdf4
+  - rasterio
+  - plotly
+  - asf_search
+  - ipympl
+  - opensarlab_lib
+  - hyp3_sdk
+  - geopandas
+  - pip:
+    - mpldatacursor
+    - url-widget
+    - shapely
+    - geos
