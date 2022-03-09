@@ -2,6 +2,7 @@ name: rtc_analysis
 channels:
   - conda-forge
   - defaults
+  - anaconda
 dependencies:
   - python=3.9
   - jupyter
@@ -23,6 +24,9 @@ dependencies:
   - ipympl
   - opensarlab_lib
   - hyp3_sdk
+  - geopandas
   - pip:
     - mpldatacursor
     - url-widget
+    - shapely
+    - geos
