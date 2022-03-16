@@ -25,6 +25,10 @@ dependencies:
   - hyp3_sdk
   - geopandas
   - shapely
+  - pycrs
+  - s3fs
+  - xarray
+  - zarr
   - pip:
     - mpldatacursor
     - url-widget
