@@ -48,3 +48,4 @@ dependencies:
     - mintpy
     - h5py<3
     - ipynb
+    - url-widget
