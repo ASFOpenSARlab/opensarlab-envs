@@ -1,0 +1,62 @@
+name: NISAR_SE
+channels:
+  - conda-forge
+  - pyrocko
+  - defaults
+dependencies:
+  # - awscli
+  - boto3
+  - cartopy
+  - cdsapi
+  - cvxopt
+  - cython
+  - dask>=1.0
+  - dask-jobqueue>=0.3
+  - defusedxml
+  - ecCodes
+  - geopandas
+  - gdal>=3
+  - h5py
+  - hyp3_sdk
+  - hyp3lib=1.4.1
+  # - ipykernel=5.5.5
+  - ipympl
+  - isce2
+  - joblib
+  - jupyter
+#  - jupyterlab
+#  - jupyter_contrib_nbextensions
+#  - jupyter_nbextensions_configurator
+  - kernda
+  - lxml
+  - matplotlib
+  - nbdime
+  - netcdf4
+  - numpy
+  - openmp
+  - opensarlab_lib
+  - pandas
+  - pip
+  - pv
+  - pygrib
+  - pyhdf
+  - pykdtree
+  - pyproj
+  - pyresample
+  - pyrocko
+  - pysolid
+  - python>=3.6,<3.9
+  - rasterio
+  - scikit-image
+  - scipy
+  - shapely
+  - utm
+  - xarray
+  - zarr
+  - pip:
+    - ipynb
+    - git+https://github.com/pyrocko/kite
+    - h5py<3
+    - mintpy
+    - okada_wrapper
+    - url-widget
