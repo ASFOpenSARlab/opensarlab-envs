@@ -1,58 +1,33 @@
 name: NISAR_SE
 channels:
+  - opensarlab
   - conda-forge
   - pyrocko
   - defaults
 dependencies:
+  - asf_search
   - awscli
   - boto3
-  - cartopy
-  - cdsapi
-  - cvxopt
   - cython
-  - dask>=1.0
-  - dask-jobqueue>=0.3
   - defusedxml
-  - ecCodes
   - geopandas
-  - gdal>=3
-  - h5py
   - hyp3_sdk
   - hyp3lib=1.4.1
   - ipympl
   - isce2
-  - joblib
-  - jupyter
   - kernda
-  - lxml
-  - matplotlib
+  - mintpy=1.3.3.dev1
   - nbdime
   - netcdf4
-  - numpy
-  - openmp
   - opensarlab_lib
-  - pandas
   - pip
   - pv
-  - pygrib
   - pyhdf
-  - pykdtree
-  - pyproj
-  - pyresample
   - pyrocko
-  - pysolid
   - python>=3.6,<3.9
   - rasterio
-  - scikit-image
-  - scipy
-  - shapely
-  - utm
-  - xarray
-  - zarr
   - pip:
     - ipynb
     - git+https://github.com/pyrocko/kite
-    - h5py<3
-    - mintpy
     - okada_wrapper
     - url-widget
