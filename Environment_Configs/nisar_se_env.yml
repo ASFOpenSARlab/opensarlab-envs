@@ -1,0 +1,33 @@
+name: NISAR_SE
+channels:
+  - opensarlab
+  - conda-forge
+  - pyrocko
+  - defaults
+dependencies:
+  - asf_search
+  - awscli
+  - boto3
+  - cython
+  - defusedxml
+  - geopandas
+  - hyp3_sdk
+  - hyp3lib=1.4.1
+  - ipympl
+  - isce2
+  - kernda
+  - mintpy=1.3.3.dev1
+  - nbdime
+  - netcdf4
+  - opensarlab_lib
+  - pip
+  - pv
+  - pyhdf
+  - pyrocko
+  - python>=3.6,<3.9
+  - rasterio
+  - pip:
+    - ipynb
+    - git+https://github.com/pyrocko/kite
+    - okada_wrapper
+    - url-widget
