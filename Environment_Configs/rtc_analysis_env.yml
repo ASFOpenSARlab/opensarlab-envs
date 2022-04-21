@@ -4,29 +4,30 @@ channels:
   - defaults
 dependencies:
   - python=3.9
+  - asf_search
+  - gdal  
+  - geopandas
+  - hyp3_sdk
+  - ipyfilechooser
+  - ipympl
   - jupyter
   - kernda
-  - ipyfilechooser
-  - mgrs
-  - pip
-  - gdal
   - matplotlib
+  - mgrs
+  - netcdf4
   - numpy
+  - opensarlab_lib
   - pandas
+  - pip
+  - plotly
+  - pycrs
   - pyproj
+  - rasterio
+  - rioxarray
+  - s3fs
   - scikit-image
   - scipy
-  - netcdf4
-  - rasterio
-  - plotly
-  - asf_search
-  - ipympl
-  - opensarlab_lib
-  - hyp3_sdk
-  - geopandas
   - shapely
-  - pycrs
-  - s3fs
   - xarray
   - zarr
   - pip:
