@@ -3,7 +3,6 @@ channels:
   - opensarlab
   - conda-forge
   - pyrocko
-  - defaults
 dependencies:
   - asf_search
   - awscli
@@ -26,8 +25,9 @@ dependencies:
   - pyrocko
   - python>=3.6,<3.9
   - rasterio
+  - traitlets==5.1.1
   - pip:
-    - ipynb
     - git+https://github.com/pyrocko/kite
+    - ipynb
     - okada_wrapper
     - url-widget
