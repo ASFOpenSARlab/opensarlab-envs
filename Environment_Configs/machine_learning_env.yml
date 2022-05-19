@@ -18,7 +18,7 @@ dependencies:
   - pyproj
   - python=3.8
   - scipy
-  - traitlets=5.1.1
+  - traitlets==5.1.1
   - pip:
     - tensorflow==2.4.1
     - keras==2.4.0

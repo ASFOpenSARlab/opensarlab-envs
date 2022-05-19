@@ -21,7 +21,7 @@ dependencies:
   - pyproj
   - python~=3.8
   - scipy
-  - traitlets=5.1.1
+  - traitlets==5.1.1
   - pip:
     - hyp3lib==1.4.1
     - url-widget

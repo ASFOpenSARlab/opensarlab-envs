@@ -33,7 +33,7 @@ dependencies:
   - scikit-fuzzy
   - scipy
   - shapely
-  - traitlets=5.1.1
+  - traitlets==5.1.1
   - pip:
     - fiona
     - url-widget
