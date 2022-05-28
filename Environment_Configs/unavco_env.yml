@@ -15,8 +15,7 @@ dependencies:
   - ecCodes
   - hyp3lib=1.4.1
   - hyp3_sdk
-#  - ipykernel=5.5.5
-  - ipympl
+  - ipympl==0.8.8
   - isce2
   - joblib
   - jupyter

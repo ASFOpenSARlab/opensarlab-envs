@@ -6,7 +6,7 @@ dependencies:
   - gdal
   - hyp3_sdk
   - ipyfilechooser
-  - ipympl
+  - ipympl==0.8.8
   - jupyter
   - kernda
   - matplotlib
