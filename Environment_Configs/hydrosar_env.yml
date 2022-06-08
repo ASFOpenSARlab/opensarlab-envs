@@ -1,39 +1,39 @@
 name: hydrosar
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - python>=3.9
+  - affine
+  - asf_search
+  - astropy
+  - earthengine-api
+  - gdal
+  - geoglows
+  - geopandas
+  - geoviews
+  - google-api-python-client
+  - hvplot
+  - hyp3_sdk
+  - ipyfilechooser
+  - ipympl==0.8.8
   - jupyter
   - kernda
-  - ipyfilechooser
-  - mgrs
-  - pip
-  - gdal
   - matplotlib
+  - mgrs
   - numpy
-  - pandas
-  - pyproj
-  - scipy
-  - affine
-  - rasterio
-  - geopandas
-  - shapely
-  - pysheds
-  - astropy
-  - scikit-fuzzy
-  - google-api-python-client
-  - earthengine-api
   - oauth2client
-  - pykrige
-  - geoglows
-  - geoviews
-  - hvplot
-  - rioxarray
-  - asf_search
-  - ipympl
   - opensarlab_lib
-  - hyp3_sdk
+  - pandas
+  - pip
+  - pykrige
+  - pyproj
+  - pysheds
+  - python>=3.9
+  - rasterio
+  - rioxarray
+  - scikit-fuzzy
+  - scipy
+  - shapely
+  - traitlets==5.1.1
   - pip:
     - fiona
     - url-widget
