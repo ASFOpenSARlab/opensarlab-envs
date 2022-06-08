@@ -6,7 +6,7 @@ dependencies:
   - gdal
   - hyp3_sdk
   - ipyfilechooser
-  - ipympl==0.8.8
+  - ipympl
   - jupyter
   - kernda
   - matplotlib
@@ -20,6 +20,6 @@ dependencies:
   - scipy
   - traitlets==5.1.1
   - pip:
-    - tensorflow==2.4.1
-    - keras==2.4.0
+    - tensorflow==2.9.0
+    - keras==2.9.0
     - url-widget
