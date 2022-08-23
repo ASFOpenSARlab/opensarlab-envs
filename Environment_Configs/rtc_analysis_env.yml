@@ -7,7 +7,7 @@ dependencies:
   - geopandas
   - hyp3_sdk
   - ipyfilechooser
-  - ipympl==0.8.8
+  - ipympl
   - jupyter
   - kernda
   - matplotlib
