@@ -19,7 +19,8 @@ dependencies:
   - ipyfilechooser
   - isce2
   - joblib
-  - jupyter
+  - jupyterlab
+  - ipywidgets<8.0.0
   - kernda
   - lxml
   - matplotlib

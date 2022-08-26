@@ -9,7 +9,8 @@ dependencies:
   - hyp3_sdk
   - importlib-metadata
   - ipympl
-  - jupyter
+  - jupyterlab
+  - ipywidgets<8.0.0
   - kernda
   - lxml
   - matplotlib
