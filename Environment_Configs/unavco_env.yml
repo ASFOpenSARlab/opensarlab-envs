@@ -4,37 +4,37 @@ channels:
   - pyrocko
 dependencies:
   - python>=3.6,<3.9
-  - boto3  
+  - boto3
   - cartopy
-  - cdsapi  
+  - cdsapi
   - cvxopt
   - cython  
   - dask>=1.0
   - dask-jobqueue>=0.3
   - defusedxml
-  - ecCodes  
+  - ecCodes
   - hyp3lib=1.4.1
-  - hyp3_sdk  
-  - ipympl 
+  - hyp3_sdk
+  - ipympl
   - isce2
-  - joblib  
+  - joblib
   - jupyterlab
   - ipywidgets<8.0.0
   - kernda
   - lxml
   - matplotlib
-  - netcdf4  
+  - netcdf4
   - numpy
-  - openmp  
-  - opensarlab_lib  
+  - openmp
+  - opensarlab_lib
   - pip
-  - pv  
+  - pv
   - pygrib
-  - pyhdf  
-  - pykdtree  
+  - pyhdf
+  - pykdtree
   - pyproj
-  - pyresample  
-  - pyrocko  
+  - pyresample
+  - pyrocko
   - scikit-image
   - scipy
   - shapely
@@ -43,9 +43,9 @@ dependencies:
   - xarray
   - zarr
   - pip:
-    - h5py<3  
+    - h5py<3
     - ipynb
     - git+https://github.com/pyrocko/kite
-    - mintpy   
+    - mintpy
     - okada_wrapper
     - url-widget
