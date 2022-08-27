@@ -15,7 +15,8 @@ dependencies:
   - hyp3_sdk
   - ipyfilechooser
   - ipympl
-  - jupyter
+  - jupyterlab
+  - ipywidgets<8.0.0
   - kernda
   - matplotlib
   - mgrs
