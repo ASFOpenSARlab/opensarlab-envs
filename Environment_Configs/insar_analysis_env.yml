@@ -2,7 +2,6 @@ name: insar_analysis
 channels:
   - conda-forge
 dependencies:
-
   - asf_search
   - boto3
   - cartopy
@@ -25,6 +24,7 @@ dependencies:
   - lxml
   - matplotlib
   - mgrs
+  - mintpy
   - netcdf4
   - numpy
   - openmp
@@ -36,6 +36,7 @@ dependencies:
   - pyproj
   - pyresample
   - python>=3.6,<3.9
+  - rasterio
   - scikit-image
   - scipy
   - shapely
@@ -44,5 +45,4 @@ dependencies:
   - zarr
   - pip:
     - h5py<3
-    - mintpy
     - url-widget
