@@ -37,6 +37,7 @@ dependencies:
   - pyresample
   - python>=3.6,<3.9
   - rasterio
+  - rioxarray
   - scikit-image
   - scipy
   - shapely
