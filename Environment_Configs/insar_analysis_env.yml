@@ -12,6 +12,7 @@ dependencies:
   - dask-jobqueue>=0.3
   - defusedxml
   - ecCodes
+  - geopandas
   - hyp3_sdk
   - hyp3lib=1.4.1
   - ipympl
