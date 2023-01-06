@@ -23,8 +23,9 @@ dependencies:
   - kernda
   - lxml
   - matplotlib
+  - mintpy
   - netcdf4
-  - numpy
+  - numpy<1.24.0
   - openmp
   - opensarlab_lib
   - pip
@@ -43,9 +44,6 @@ dependencies:
   - xarray
   - zarr
   - pip:
-    - git+https://github.com/pyrocko/kite
     - h5py<3
     - ipynb
-    - mintpy
-    - okada_wrapper
     - url-widget
