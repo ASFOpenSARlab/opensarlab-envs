@@ -27,7 +27,7 @@ dependencies:
   - mgrs
   - mintpy
   - netcdf4
-  - numpy
+  - numpy<1.24.0
   - openmp
   - opensarlab_lib
   - pip
