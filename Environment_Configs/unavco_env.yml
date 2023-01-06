@@ -1,6 +1,7 @@
 name: unavco
 channels:
   - conda-forge
+  - pyrocko
 dependencies:
   - python>=3.6,<3.9
   - boto3
