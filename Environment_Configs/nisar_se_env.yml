@@ -1,6 +1,7 @@
 name: NISAR_SE
 channels:
   - conda-forge
+  - pyrocko
 dependencies:
   - asf_search
   - awscli
