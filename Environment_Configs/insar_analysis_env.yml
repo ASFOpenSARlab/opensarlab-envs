@@ -41,7 +41,7 @@ dependencies:
   - rioxarray
   - s3fs
   - scikit-image
-  - scipy
+  - scipy<1.10.0
   - shapely
   - traitlets==5.1.1
   - xarray
