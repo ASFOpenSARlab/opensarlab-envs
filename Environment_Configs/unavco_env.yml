@@ -22,7 +22,7 @@ dependencies:
   - ipywidgets<8.0.0
   - kernda
   - lxml
-  - matplotlib
+  - matplotlib<3.7.0
   - mintpy
   - netcdf4
   - numpy<1.24.0
