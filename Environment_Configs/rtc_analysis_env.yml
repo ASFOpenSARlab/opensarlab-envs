@@ -11,7 +11,7 @@ dependencies:
   - jupyterlab
   - ipywidgets<8.0.0
   - kernda
-  - matplotlib
+  - matplotlib<3.7.0
   - mgrs
   - netcdf4
   - numpy

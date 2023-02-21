@@ -16,6 +16,7 @@ dependencies:
   - ipywidgets<8.0.0
   - isce2
   - kernda
+  - matplotlib<3.7.0
   - mintpy
   - nbdime
   - netcdf4
