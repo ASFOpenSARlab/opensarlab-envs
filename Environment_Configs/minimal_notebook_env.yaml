@@ -1,0 +1,7 @@
+name: minimal_notebook
+channels:
+  - conda-forge
+dependencies:
+  - opensarlab_lib
+  - ipympl
+  - ipywidgets<8.0.0
