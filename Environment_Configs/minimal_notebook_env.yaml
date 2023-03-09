@@ -1,0 +1,6 @@
+name: minimal_notebook
+channels:
+  - conda-forge
+dependencies:
+  - ipympl
+  - ipywidgets<8.0.0
