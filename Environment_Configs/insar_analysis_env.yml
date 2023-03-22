@@ -38,7 +38,7 @@ dependencies:
   - pyresample
   - python>=3.6,<3.9
   - rasterio
-  - rioxarray
+  - rioxarray==0.13.4
   - s3fs
   - scikit-image
   - scipy<1.10.0
