@@ -1,0 +1,34 @@
+name: isce3_rtc
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9,<3.10
+  - asf_search
+  - backoff
+  - boto3
+  - cmake
+  - cython
+  - eigen
+  - fftw
+  - gdal
+  - gmock
+  - gtest
+  - h5py
+  - hdf5
+  - ipywidgets<8.0.0
+  - libgcc-ng
+  - libstdcxx-ng
+  - lxml
+  - matplotlib<3.7.0
+  - numpy
+  - pip
+  - pybind11
+  - pyre
+  - pytest
+  - ruamel.yaml
+  - scipy
+  - shapely
+  - yamale
+  - isce3=0.9.0
+  - pip:
+    - url-widget
