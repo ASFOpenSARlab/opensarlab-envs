@@ -170,3 +170,4 @@ dependencies:
       - pytest==7.2.2
       - python-dateutil==2.8.2
       - six==1.16.0
+      - url-widget
