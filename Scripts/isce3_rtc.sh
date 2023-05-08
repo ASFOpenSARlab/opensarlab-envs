@@ -17,4 +17,6 @@ if [ -d "$RTC" ]; then
 rm -rf "$RTC"
 fi
 git clone https://github.com/opera-adt/RTC.git "$RTC"
+cd "$RTC"
+git checkout 503a197aac3c88c725eb229beaa0370c13e4b050
 mamba run -n isce3_rtc python -m pip install "$RTC"
