@@ -3,7 +3,8 @@ set -e
 env="insar_analysis"
 local="/home/jovyan/.local"
 env_prefix=$local"/envs/"$env
-site_packages=$env_prefix"/lib/python3.11/site-packages"
+python_version=$(conda run -n $env python --version | cut -b 8-11)
+site_packages=$env_prefix"/lib/python"$python_version"/site-packages"
 
 ######## ISCE ########
 
