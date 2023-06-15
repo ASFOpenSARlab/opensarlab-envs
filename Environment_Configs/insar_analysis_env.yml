@@ -36,7 +36,6 @@ dependencies:
   - pykdtree
   - pyproj
   - pyresample
-  - python>=3.6,<3.9
   - rasterio
   - rioxarray==0.13.4
   - s3fs
@@ -49,3 +48,4 @@ dependencies:
   - pip:
     - h5py<3
     - url-widget
+    
