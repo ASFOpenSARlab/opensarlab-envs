@@ -13,6 +13,7 @@ dependencies:
   - defusedxml
   - ecCodes
   - geopandas
+  - h5py
   - hyp3_sdk
   - hyp3lib=1.4.1
   - ipympl
@@ -46,6 +47,5 @@ dependencies:
   - xarray
   - zarr
   - pip:
-    - h5py<3
     - url-widget
     
