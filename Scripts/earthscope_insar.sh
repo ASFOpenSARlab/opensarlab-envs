@@ -9,7 +9,7 @@ PATH=$HOME/.local/bin:$PATH
 
 LOCAL="$HOME"/.local
 NAME="earthscope_insar"
-python_version=$(conda run -n $env python --version | cut -b 8-11)
+python_version=$(conda run -n $NAME python --version | cut -b 8-11)
 SITE_PACKAGES="$LOCAL/envs/$NAME/lib/python"$python_version"/site-packages"
 ##############################################################
 
