@@ -6,9 +6,11 @@ set -e
 PATH=$HOME/.local/bin:$PATH
 
 ############### Copy to .local/envs ###############
+
 LOCAL="$HOME"/.local
-NAME=unavco
-SITE_PACKAGES="$LOCAL/envs/$NAME/lib/python3.8/site-packages"
+NAME="earthscope_insar"
+python_version=$(conda run -n $env python --version | cut -b 8-11)
+SITE_PACKAGES="$LOCAL/envs/$NAME/lib/python"$python_version"/site-packages"
 ##############################################################
 
 #conda run -n "$NAME" kernda --display-name $NAME $LOCAL/envs/$NAME/share/jupyter/kernels/python3/kernel.json -o

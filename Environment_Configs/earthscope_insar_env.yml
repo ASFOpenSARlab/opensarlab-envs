@@ -1,9 +1,9 @@
-name: unavco
+name: earthscope_insar
 channels:
   - conda-forge
   - pyrocko
 dependencies:
-  - python>=3.6,<3.9
+  - python
   - boto3
   - cartopy
   - cdsapi
@@ -25,7 +25,7 @@ dependencies:
   - matplotlib<3.7.0
   - mintpy
   - netcdf4
-  - numpy<1.24.0
+  - numpy
   - openmp
   - opensarlab_lib
   - pip
@@ -37,7 +37,7 @@ dependencies:
   - pyresample
   - pyrocko
   - scikit-image
-  - scipy<1.10.0
+  - scipy
   - shapely
   - traitlets==5.1.1
   - utm
