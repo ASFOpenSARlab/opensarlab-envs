@@ -44,6 +44,6 @@ dependencies:
   - xarray
   - zarr
   - pip:
-    - h5py<3
+    - h5py
     - ipynb
     - url-widget
