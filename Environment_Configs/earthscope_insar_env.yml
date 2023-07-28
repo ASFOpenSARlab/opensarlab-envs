@@ -36,6 +36,7 @@ dependencies:
   - pyproj
   - pyresample
   - pyrocko
+  - rioxarray
   - scikit-image
   - scipy
   - shapely
