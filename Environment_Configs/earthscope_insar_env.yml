@@ -48,3 +48,5 @@ dependencies:
     - h5py
     - ipynb
     - url-widget
+    - okada_wrapper
+    - kite
