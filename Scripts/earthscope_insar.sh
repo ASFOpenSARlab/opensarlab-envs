@@ -27,31 +27,6 @@ path="$SITE_PACKAGES"/isce/applications:"$LOCAL"/envs/"$NAME"/bin:$path
 # set ISCE_HOME
 conda env config vars set -n $NAME ISCE_HOME="$SITE_PACKAGES"/isce
 
-######## Install MintPy ########
-
-MINTPY_HOME="$LOCAL"/MintPy
-PYAPS_HOME="$LOCAL"/PyAPS
-
-# set MintPy env variables
-conda env config vars set -n $NAME MINTPY_HOME="$MINTPY_HOME"
-conda env config vars set -n $NAME PYAPS_HOME="$PYAPS_HOME"
-
-#update local path and pythonpath variables
-path="$MINTPY_HOME"/mintpy:"$path"
-pythonpath="$MINTPY_HOME":"$PYAPS_HOME":"$pythonpath"
-
-# clone MintPy
-if [ ! -d "$MINTPY_HOME" ]
-then
-    git clone -b v1.3.1 --depth=1 --single-branch https://github.com/insarlab/MintPy.git "$MINTPY_HOME"
-fi
-
-# clone pyaps
-if [ ! -d "$PYAPS_HOME" ]
-then
-    git clone -b main --depth=1 --single-branch https://github.com/yunjunz/PyAPS.git "$PYAPS_HOME"
-fi
-
 ######## Install ARIA-Tools ########
 
 # clone the ARIA-Tools repo and build ARIA-Tools
