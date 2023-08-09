@@ -6,14 +6,9 @@ dependencies:
   - python
   - boto3
   - cartopy
-  - cdsapi
-  - cvxopt
   - cython
-  - dask>=1.0
-  - dask-jobqueue>=0.3
-  - defusedxml
-  - ecCodes
   - fortran-compiler
+  - h5py
   - hyp3lib=1.4.1
   - hyp3_sdk
   - ipympl
@@ -31,11 +26,7 @@ dependencies:
   - opensarlab_lib
   - pip
   - pv
-  - pygrib
-  - pyhdf
-  - pykdtree
   - pyproj
-  - pyresample
   - pyrocko
   - rioxarray
   - scikit-image
@@ -43,11 +34,8 @@ dependencies:
   - shapely
   - traitlets==5.1.1
   - utm
-  - xarray
-  - zarr
   - pip:
-    - h5py
-    - ipynb
     - url-widget
     - okada_wrapper
     - kite
+
