@@ -7,6 +7,7 @@ dependencies:
   - boto3
   - cartopy
   - cython
+  - dem_stitcher>=2.5.0
   - fortran-compiler
   - h5py
   - hyp3lib=1.4.1
