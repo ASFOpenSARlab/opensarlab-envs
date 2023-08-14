@@ -30,6 +30,7 @@ dependencies:
   - pyproj
   - pyrocko
   - rioxarray
+  - sardem
   - scikit-image
   - scipy
   - shapely
@@ -39,4 +40,3 @@ dependencies:
     - url-widget
     - okada_wrapper
     - kite
-
