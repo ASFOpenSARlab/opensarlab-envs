@@ -5,8 +5,8 @@ dependencies:
   - python>=3.8
   - pip
   - gdal>=3
-  - autorift=1.4.0
-  - opencv=4.5.3
+  - autorift=1.5.0
+  - opencv
   - pandas
   - jupyterlab
   - ipywidgets<8.0.0
