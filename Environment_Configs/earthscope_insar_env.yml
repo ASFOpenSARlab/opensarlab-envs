@@ -23,6 +23,7 @@ dependencies:
   - mintpy
   - netcdf4
   - numpy
+  - opencv
   - openmp
   - opensarlab_lib
   - pip
