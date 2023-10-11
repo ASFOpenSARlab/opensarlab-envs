@@ -8,7 +8,6 @@ dependencies:
   - autorift=1.5.0
   - opencv
   - pandas
-  - jupyterlab
   - ipywidgets<8.0.0
   - matplotlib<3.7.0
   - ipympl

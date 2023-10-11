@@ -5,36 +5,46 @@ dependencies:
   - affine
   - asf_search
   - astropy
-  - earthengine-api
-  - gdal
+  - cdsapi
+  - certifi
+  - eofs
+  - fiona
+  - gdal  
   - geoglows
   - geopandas
-  - geoviews
-  - google-api-python-client
-  - hvplot
   - hyp3_sdk
   - ipyfilechooser
   - ipympl
   - jupyterlab
   - ipywidgets<8.0.0
+  - keras
   - kernda
   - matplotlib<3.7.0
-  - mgrs
+  - netcdf4
   - numpy
-  - oauth2client
   - opensarlab_lib
   - pandas
   - pip
-  - pykrige
+  - plotly
+  - qt
+  - pycrs
   - pyproj
-  - pysheds
-  - python>=3.9
+  - pysheds # 
+  - python=3.8
   - rasterio
   - rioxarray
-  - scikit-fuzzy
+  - s3fs
+  - scikit-learn
   - scipy
+  - scikit-fuzzy
+  - seaborn
   - shapely
+  - tensorflow
   - traitlets==5.1.1
+  - xarray
+  - zarr
   - pip:
-    - fiona
+    - mpldatacursor
+    - pgrid
     - url-widget
+    - git+https://github.com/servir/fierpy.git 
