@@ -22,8 +22,7 @@ then
 fi
 
 path=$env_prefix"/bin:"$site_packages":"$local"/ARIA-tools/tools/bin:"$local"/ARIA-tools/tools/ARIAtools:"$PATH
-
-pythonpath=$env_prefix"/bin:"$local"/ARIA-tools/tools:"$local"/ARIA-tools/tools/ARIAtools"
+pythonpath=$local"/ARIA-tools/tools:"$local"/ARIA-tools/tools/ARIAtools"
 
 conda env config vars set -n $env GDAL_HTTP_COOKIEFILE=/tmp/cookies.txt
 conda env config vars set -n $env GDAL_HTTP_COOKIEJAR=/tmp/cookies.txt
