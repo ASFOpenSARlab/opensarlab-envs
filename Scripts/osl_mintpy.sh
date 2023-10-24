@@ -3,7 +3,7 @@ set -e
 env="osl_mintpy"
 local="/home/jovyan/.local"
 env_prefix=$local"/envs/"$env
-python_version=$(conda run -n $env python --version | cut -b 8-11)
+python_version=$(conda run -n $env python --version | cut -b 8-10)
 site_packages=$env_prefix"/lib/python"$python_version"/site-packages"
 
 
@@ -16,13 +16,15 @@ then
     git clone -b release-v1.1.2 https://github.com/aria-tools/ARIA-tools.git $aria
     wd=$(pwd)
     cd $aria
-    conda run python $aria/setup.py build
-    conda run python $aria/setup.py install
+    conda run -n $env python $aria/setup.py build
+    conda run -n $env python $aria/setup.py install
     cd $wd
 fi
 
-path=$local"/ARIA-tools/tools/bin:"$local"/ARIA-tools/tools/ARIAtools:"$PATH
-pythonpath=$local"/ARIA-tools/tools:"$local"/ARIA-tools/tools/ARIAtools:"$PYTHONPATH
+path=$env_prefix"/bin:"$site_packages":"$local"/ARIA-tools/tools/bin:"$local"/ARIA-tools/tools/ARIAtools:"$PATH
+
+pythonpath=$env_prefix"/bin:"$local"/ARIA-tools/tools:"$local"/ARIA-tools/tools/ARIAtools"
+
 conda env config vars set -n $env GDAL_HTTP_COOKIEFILE=/tmp/cookies.txt
 conda env config vars set -n $env GDAL_HTTP_COOKIEJAR=/tmp/cookies.txt
 conda env config vars set -n $env VSI_CACHE=YES
