@@ -5,6 +5,8 @@ dependencies:
   - python==3.9
   - asf_search 
   - bokeh
+  - dask
+  - distributed==2023.4.1 # later versions require Python>=3.10
   - h5py
   - hyp3_sdk
   - ipympl
