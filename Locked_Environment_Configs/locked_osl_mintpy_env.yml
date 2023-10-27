@@ -1,7 +1,6 @@
 name: osl_mintpy
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
@@ -50,7 +49,7 @@ dependencies:
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
   - cairo=1.16.0=h6cf1ce9_1008
-  - cartopy=0.22.0=py39hddac248_1
+  - cartopy=0.22.0=py39h40cae4c_0
   - cdsapi=0.6.1=pyhd8ed1ab_0
   - certifi=2023.7.22=pyhd8ed1ab_0
   - cffi=1.14.6=py39he32792d_0
