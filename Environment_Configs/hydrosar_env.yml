@@ -2,11 +2,13 @@ name: hydrosar
 channels:
   - conda-forge
 dependencies:
+  - python=3.8
   - affine
   - asf_search
   - astropy
   - cdsapi
   - certifi
+  - dask
   - eofs
   - fiona
   - gdal  
@@ -29,8 +31,7 @@ dependencies:
   - qt
   - pycrs
   - pyproj
-  - pysheds # 
-  - python=3.8
+  - pysheds 
   - rasterio
   - rioxarray
   - s3fs
