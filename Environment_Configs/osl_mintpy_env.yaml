@@ -5,22 +5,25 @@ dependencies:
   - python==3.9
   - asf_search 
   - bokeh
+  - boto3
   - cartopy=0.22.0=py39h40cae4c_0 # most recent version breaks matplotlib widget and opensarlab_lib AOI_selector
   - dask
   - distributed==2023.4.1 # later versions require Python>=3.10
+  - geopandas
   - h5py
   - hyp3_sdk
   - ipympl
   - ipyfilechooser
+  - ipython<=8.16
   - jupyterlab
-  - ipywidgets<8.0.0
-  - mintpy==1.5.1 # Ref point stored in old UTM after lat/lon conversion. Waiting resolution to https://github.com/insarlab/MintPy/issues/1098
-                  # After PR merged, when we update, we may need to stop projecting to lat/lon in Prepare_HyP3_InSAR_Stack_for_MintPy.ipynb
+  - matplotlib<3.7.0
+  - mintpy>=1.5.3
   - numpy<1.24.0
   - opensarlab_lib
   - pandas
   - rasterio
   - rioxarray
+  - shapely
   - pip
   - xarray
   - pip:
