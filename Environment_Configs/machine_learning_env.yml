@@ -8,19 +8,16 @@ dependencies:
   - ipyfilechooser
   - ipympl
   - jupyterlab
-  - ipywidgets<8.0.0
-  - kernda
-  - matplotlib<3.7.0
+  - ipywidgets
+  - matplotlib
   - mgrs
   - numpy
   - opensarlab_lib
   - pandas
   - pip
   - pyproj
-  - python=3.8
   - scipy
-  - traitlets==5.1.1
+  - tensorflow
+  - keras
   - pip:
-    - tensorflow==2.9.0
-    - keras==2.9.0
     - url-widget
