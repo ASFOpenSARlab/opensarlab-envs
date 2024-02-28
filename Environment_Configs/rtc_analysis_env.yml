@@ -9,9 +9,8 @@ dependencies:
   - ipyfilechooser
   - ipympl
   - jupyterlab
-  - ipywidgets<8.0.0
-  - kernda
-  - matplotlib<3.7.0
+  - ipywidgets
+  - matplotlib
   - mgrs
   - netcdf4
   - numpy
@@ -19,16 +18,15 @@ dependencies:
   - pandas
   - pip
   - plotly
+  - pyarrow
   - pycrs
   - pyproj
-  - python=3.9
   - rasterio
   - rioxarray
   - s3fs
   - scikit-image
   - scipy
   - shapely
-  - traitlets==5.1.1
   - xarray
   - zarr
   - pip:

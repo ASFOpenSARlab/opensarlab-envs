@@ -3,40 +3,31 @@ channels:
   - conda-forge
   - pyrocko
 dependencies:
-  - python
+  - asf_search
+  - autorift
   - boto3
   - cartopy
-  - cython
-  - dem_stitcher>=2.5.0
-  - fortran-compiler
   - h5py
-  - hyp3lib=1.4.1
   - hyp3_sdk
   - ipympl
   - isce2
-  - joblib
   - jupyterlab
-  - ipywidgets<8.0.0
-  - kernda
-  - lxml
-  - matplotlib<3.7.0
+  - ipywidgets
+  - matplotlib 
   - mintpy==1.5.1 # Ref point stored in old UTM after lat/lon conversion. Waiting resolution to https://github.com/insarlab/MintPy/issues/1098
                   # After PR merged, when we update, we may need to stop projecting to lat/lon in Prepare_HyP3_InSAR_Stack_for_MintPy.ipynb
   - netcdf4
   - numpy
   - opencv
-  - openmp
-  - opensarlab_lib
   - pip
   - pv
   - pyproj
   - pyrocko
-  - rioxarray
   - sardem
   - scikit-image
   - scipy
-  - shapely
-  - traitlets==5.1.1
+  - shapely==2.0.1
+  - xarray
   - utm
   - pip:
     - url-widget
