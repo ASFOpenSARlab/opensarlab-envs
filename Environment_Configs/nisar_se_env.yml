@@ -10,13 +10,10 @@ dependencies:
   - defusedxml
   - geopandas
   - hyp3_sdk
-  - hyp3lib=1.4.1
   - ipympl
   - jupyterlab
-  - ipywidgets<8.0.0
-  - isce2
-  - kernda
-  - matplotlib<3.7.0
+  - ipython<=8.16
+  - matplotlib
   - mintpy
   - nbdime
   - netcdf4
@@ -26,11 +23,7 @@ dependencies:
   - pv
   - pyhdf
   - pyrocko
-  - python>=3.6,<3.9
   - rasterio
-  - scipy<1.10.0
-  - traitlets==5.1.1
+  - scipy 
   - pip:
-    - h5py<3
-    - ipynb
     - url-widget
