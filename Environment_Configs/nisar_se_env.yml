@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - pyrocko
 dependencies:
+  - python=3.11
   - asf_search
   - awscli
   - boto3
@@ -11,13 +12,13 @@ dependencies:
   - geopandas
   - hyp3_sdk
   - ipympl
+  - ipyfilechooser
   - jupyterlab
-  - ipython<=8.16
-  - matplotlib
-  - mintpy
+  - ipywidgets
+  - matplotlib-base
   - nbdime
   - netcdf4
-  - numpy<1.24.0
+  - numpy>=1.16,<1.24.0
   - opensarlab_lib
   - pip
   - pv
@@ -26,4 +27,5 @@ dependencies:
   - rasterio
   - scipy 
   - pip:
+    - git+https://github.com/insarlab/MintPy.git@5683092
     - url-widget
