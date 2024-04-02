@@ -2,50 +2,7 @@ name: insar_analysis
 channels:
   - conda-forge
 dependencies:
-  - asf_search
-  - boto3
-  - cartopy
-  - cdsapi
-  - cvxopt
-  - cython
-  - dask>=1.0
-  - dask-jobqueue>=0.3
-  - defusedxml
-  - ecCodes
-  - geopandas
-  - h5py
-  - hyp3_sdk
-  - hyp3lib=1.4.1
-  - ipympl
-  - ipyfilechooser
-  - isce2
-  - joblib
-  - jupyterlab
-  - ipywidgets<8.0.0
-  - kernda
-  - lxml
-  - matplotlib<3.7.0
-  - mgrs
-  - mintpy
-  - netcdf4
-  - numpy<1.24.0
-  - openmp
-  - opensarlab_lib
   - pip
-  - pygrib
-  - pyhdf
-  - pykdtree
-  - pyproj
-  - pyresample
-  - rasterio
-  - rioxarray==0.13.4
-  - s3fs
-  - scikit-image
-  - scipy<1.10.0
-  - shapely
-  - traitlets==5.1.1
-  - xarray
-  - zarr
-  - pip:
-    - url-widget
+
+# This conda environment is deprecated
     

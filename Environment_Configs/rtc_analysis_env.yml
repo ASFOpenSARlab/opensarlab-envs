@@ -8,8 +8,7 @@ dependencies:
   - hyp3_sdk
   - ipyfilechooser
   - ipympl
-  - jupyterlab
-  - ipywidgets
+  - ipykernel
   - matplotlib
   - mgrs
   - netcdf4

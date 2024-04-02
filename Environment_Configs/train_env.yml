@@ -3,26 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - asf_search
-  - boto3
-  - gdal=3.1.3
-  - hyp3_sdk
-  - importlib-metadata
-  - ipympl
-  - jupyterlab
-  - ipywidgets<8.0.0
-  - kernda
-  - lxml
-  - matplotlib<3.7.0
-  - netcdf4
-  - numpy
-  - opensarlab_lib
-  - pandas
   - pip
-  - pyproj
-  - python~=3.8
-  - scipy
-  - traitlets==5.1.1
-  - pip:
-    - hyp3lib==1.4.1
-    - url-widget
+  
+# This conda environment is deprecated
+# TRAIN is no longer supported in OpenSARLab

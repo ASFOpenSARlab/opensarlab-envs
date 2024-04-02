@@ -7,8 +7,7 @@ dependencies:
   - hyp3_sdk
   - ipyfilechooser
   - ipympl
-  - jupyterlab
-  - ipywidgets
+  - ipykernel
   - matplotlib
   - mgrs
   - numpy
@@ -21,3 +20,4 @@ dependencies:
   - keras
   - pip:
     - url-widget
+    
