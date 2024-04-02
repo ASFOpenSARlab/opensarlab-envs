@@ -13,15 +13,14 @@ dependencies:
   - hyp3_sdk
   - ipympl
   - ipyfilechooser
-  - jupyterlab
-  - ipywidgets
+  - ipykernel
   - matplotlib-base
   - nbdime
   - netcdf4
   - numpy>=1.16,<1.24.0
   - opensarlab_lib
   - pip
-  - pv
+  - pv ####
   - pyhdf
   - pyrocko
   - rasterio

@@ -1,7 +1,8 @@
-# This environment is deprecated and is no longer used for OSL notebooks
 name: insar_analysis
 channels:
   - conda-forge
 dependencies:
   - pip
+
+# This conda environment is deprecated
     
