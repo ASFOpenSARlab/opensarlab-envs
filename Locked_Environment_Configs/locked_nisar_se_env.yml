@@ -384,7 +384,7 @@ dependencies:
       - lxml==5.2.0
       - markdown-it-py==3.0.0
       - mdurl==0.1.2
-      - mintpy==1.5.3.post21
+      - git+https://github.com/insarlab/MintPy.git@5683092
       - msgpack==1.0.8
       - partd==1.4.1
       - pyaps3==0.3.2
