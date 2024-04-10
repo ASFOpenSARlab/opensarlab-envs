@@ -6,29 +6,17 @@ dependencies:
   - asf_search
   - autorift
   - boto3
-  - cartopy
-  - h5py
   - hyp3_sdk
+  - ipykernel
   - ipympl
   - isce2
-  - jupyterlab
-  - ipywidgets
-  - matplotlib 
-  - mintpy==1.5.1 # Ref point stored in old UTM after lat/lon conversion. Waiting resolution to https://github.com/insarlab/MintPy/issues/1098
-                  # After PR merged, when we update, we may need to stop projecting to lat/lon in Prepare_HyP3_InSAR_Stack_for_MintPy.ipynb
+  - mintpy
   - netcdf4
-  - numpy
-  - opencv
   - pip
   - pv
-  - pyproj
-  - pyrocko
+  - pyrocko==2023.10.11
   - sardem
-  - scikit-image
-  - scipy
-  - shapely==2.0.1
   - xarray
-  - utm
   - pip:
     - url-widget
     - okada_wrapper
