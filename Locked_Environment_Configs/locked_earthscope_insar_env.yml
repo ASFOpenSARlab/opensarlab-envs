@@ -2,14 +2,15 @@ name: earthscope_insar
 channels:
   - pyrocko
   - conda-forge
+  - defaults
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
   - alsa-lib=1.2.8=h166bdaf_0
   - aom=3.5.0=h27087fc_0
   - argcomplete=3.2.3=pyhd8ed1ab_0
-  - asf_search=7.0.8=pyhd8ed1ab_0
-  - asf_search-base=7.0.8=pyhd8ed1ab_0
+  - asf_search=7.0.9=pyhd8ed1ab_0
+  - asf_search-base=7.0.9=pyhd8ed1ab_0
   - asttokens=2.4.1=pyhd8ed1ab_0
   - attr=2.5.1=h166bdaf_1
   - autorift=1.5.0=py311hc8c2753_2
@@ -27,22 +28,22 @@ dependencies:
   - aws-crt-cpp=0.20.3=he9c0e7f_4
   - aws-sdk-cpp=1.10.57=hbc2ea52_17
   - blosc=1.21.5=h0f2a231_0
-  - bokeh=3.4.0=pyhd8ed1ab_0
+  - bokeh=3.4.1=pyhd8ed1ab_0
   - boost-cpp=1.78.0=h5adbc97_2
-  - boto3=1.34.81=pyhd8ed1ab_0
-  - botocore=1.34.81=pyge310_1234567_0
+  - boto3=1.34.82=pyhd8ed1ab_0
+  - botocore=1.34.82=pyge310_1234567_0
   - brotli=1.0.9=h166bdaf_9
   - brotli-bin=1.0.9=h166bdaf_9
   - brotli-python=1.0.9=py311ha362b79_9
   - brunsli=0.1=h9c3ff4c_0
   - bzip2=1.0.8=hd590300_5
   - c-ares=1.28.1=hd590300_0
-  - c-blosc2=2.14.4=hb4ffafa_0
+  - c-blosc2=2.12.0=hb4ffafa_0
   - ca-certificates=2024.2.2=hbcca054_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
   - cairo=1.16.0=ha61ee94_1014
-  - cartopy=0.22.0=py311h320fe9a_1
+  - cartopy=0.23.0=py311h320fe9a_0
   - cdsapi=0.6.1=pyhd8ed1ab_0
   - certifi=2024.2.2=pyhd8ed1ab_0
   - cffi=1.16.0=py311hb3a22ac_0
@@ -271,7 +272,7 @@ dependencies:
   - orc=1.9.0=h2f23424_1
   - p11-kit=0.24.1=hc5aa10d_0
   - packaging=24.0=pyhd8ed1ab_0
-  - pandas=2.2.1=py311h320fe9a_0
+  - pandas=2.2.2=py311h320fe9a_0
   - parso=0.8.4=pyhd8ed1ab_0
   - partd=1.4.1=pyhd8ed1ab_0
   - pcre2=10.40=hc3806b6_0
