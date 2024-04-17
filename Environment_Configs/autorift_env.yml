@@ -2,13 +2,15 @@ name: autorift
 channels:
   - conda-forge
 dependencies:
-  - python>=3.8
-  - pip
+  - autorift>=1.5.0
   - gdal>=3
-  - autorift=1.5.0
+  - ipykernel
+  - ipympl
+  - ipywidgets
+  - matplotlib
+  - numpy<1.24.0
   - opencv
   - pandas
-  - ipywidgets<8.0.0
-  - matplotlib<3.7.0
-  - ipympl
-  - jupyterlab
+  - pip
+  - pip:
+    - url-widget
