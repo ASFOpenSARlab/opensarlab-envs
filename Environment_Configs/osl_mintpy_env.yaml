@@ -2,7 +2,7 @@ name: osl_mintpy
 channels:
   - conda-forge
 dependencies:
-  - python==3.9
+  - aria-tools
   - asf_search 
   - bokeh
   - boto3
@@ -17,7 +17,7 @@ dependencies:
   - ipyfilechooser
   - ipykernel
   - matplotlib-base
-  - mintpy==1.5.1
+  - mintpy
   - numpy<1.24.0
   - opensarlab_lib
   - pandas
