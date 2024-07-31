@@ -17,6 +17,9 @@ dependencies:
   - pyrocko==2023.10.11
   - sardem
   - xarray
+  - gxx_linux-64
+  - rioxarray
+  - rasterio
   - pip:
     - url-widget
     - okada_wrapper

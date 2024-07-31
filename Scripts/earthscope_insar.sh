@@ -33,7 +33,7 @@ conda env config vars set -n $NAME ISCE_HOME="$SITE_PACKAGES"/isce
 aria="$LOCAL/ARIA-tools"
 if [ ! -d "$aria" ]
 then
-    git clone -b v1.1.6 https://github.com/aria-tools/ARIA-tools.git "$aria"
+    git clone -b v1.2 https://github.com/aria-tools/ARIA-tools.git "$aria"
     wd=$(pwd)
     cd "$aria"
     conda run -n $NAME python "$aria"/setup.py build
@@ -53,6 +53,23 @@ if [ ! -d $aria_docs ]
 then
     git clone -b master --depth=1 --single-branch https://github.com/aria-tools/ARIA-tools-docs.git $aria_docs
 fi
+
+ ######## Install autoRIFT ########
+
+ # clone the autorift-Tools repo and build autorift-Tools
+ autorift="$LOCAL/autoRIFT"
+ cc="$LOCAL"/envs/"$NAME"/bin/x86_64-conda_cos6-linux-gnu-gcc
+ cxx="$LOCAL"/envs/"$NAME"/bin/x86_64-conda_cos6-linux-gnu-g++
+ include="$LOCAL"/envs/"$NAME"/include/opencv4
+ if [ ! -d "$autorift" ]
+ then
+     git clone https://github.com/nasa-jpl/autoRIFT.git "$autorift"
+     wd=$(pwd)
+     cd "$autorift"
+     conda run -n $NAME CC="$cc" CXX="$cxx" CFLAGS=-I${include} python "$autorift"/setup.py build
+     conda run -n $NAME python -m pip install .
+     cd "$wd"
+ fi
 
 #######################
 
