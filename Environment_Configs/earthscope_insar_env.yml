@@ -1,7 +1,7 @@
 name: earthscope_insar
 channels:
   - conda-forge
-  # - pyrocko
+  - pyrocko
 dependencies:
   - aria-tools
   - asf_search
@@ -15,7 +15,7 @@ dependencies:
   - netcdf4
   - pip
   - pv
-  # - pyrocko==2023.10.11
+  - pyrocko
   - sardem
   - rioxarray
   - rasterio
