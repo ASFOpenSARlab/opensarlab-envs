@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - pyrocko
 dependencies:
+  - aria-tools
   - asf_search
   - autorift
   - boto3
@@ -14,10 +15,12 @@ dependencies:
   - netcdf4
   - pip
   - pv
-  - pyrocko==2023.10.11
+  - pyrocko
   - sardem
-  - xarray
+  - rioxarray
+  - rasterio
   - pip:
     - url-widget
     - okada_wrapper
     - kite
+
