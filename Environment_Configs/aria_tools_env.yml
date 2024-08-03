@@ -1,0 +1,35 @@
+name: ARIA-tools
+channels:
+  - conda-forge
+dependencies:
+  - affine
+  - aria-tools==1.2
+  - arm_pyart
+  - asf_search
+  - dask
+  - dem_stitcher>=2.5.8
+  - gdal>=3.7.0
+  - h5py
+  - ipykernel
+  - joblib
+  - matplotlib
+  - netcdf4
+  - numpy
+  - pandas
+  - parallel
+  - pip
+  - pyproj
+  - pytest
+  - python>=3.8
+  - python-dateutil
+  - rasterio
+  - rioxarray
+  - requests
+  - scipy>1.10.0
+  - shapely
+  - tile_mate
+  - xarray
+variables:
+  GDAL_HTTP_COOKIEFILE: /tmp/cookies.txt
+  GDAL_HTTP_COOKIEJAR: /tmp/cookies.txt
+  VSI_CACHE: YES
