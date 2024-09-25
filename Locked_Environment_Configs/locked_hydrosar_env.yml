@@ -1,4 +1,4 @@
-# This environment is deprectaed. It will not build successfully and it will not be updated.
+# This environment is deprecated. It will not build successfully and it will not be updated.
 # Instead, use the environment yaml found in the HydroSAR repo: https://github.com/HydroSAR/HydroSAR
 # The current yaml can be found here: 
 # https://github.com/HydroSAR/HydroSAR/blob/feature/reorg_and_jupyter-book/notebooks/jupyter_book/jupyter_book_environment/hydrosar.yml
