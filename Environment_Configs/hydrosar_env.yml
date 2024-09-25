@@ -1,34 +1,39 @@
-name: hydrosar
-channels:
-  - conda-forge
-dependencies:
-  - affine
-  - astropy
-  - earthengine-api
-  - fiona
-  - gdal
-  - geopandas
-  - hyp3_sdk
-  - ipyfilechooser
-  - ipympl
-  - ipywidgets
-  - jupyterlab
-  - matplotlib
-  - numpy
-  - oauth2client
-  - opensarlab_lib
-  - pandas
-  - pip
-  - pyarrow
-  - pykrige
-  - pyproj
-  - pysheds
-  - pytz
-  - rasterio
-  - scikit-fuzzy
-  - scikit-learn
-  - scipy
-  - shapely  
-  - pip:
-    - url-widget
+# This environment is deprecated. It will not build successfully and it will not be updated.
+# Instead, use the environment yaml found in the HydroSAR repo: https://github.com/HydroSAR/HydroSAR
+# The current yaml can be found here: 
+# https://github.com/HydroSAR/HydroSAR/blob/feature/reorg_and_jupyter-book/notebooks/jupyter_book/jupyter_book_environment/hydrosar.yml
+
+# name: hydrosar
+# channels:
+#   - conda-forge
+# dependencies:
+#   - affine
+#   - astropy
+#   - earthengine-api
+#   - fiona
+#   - gdal
+#   - geopandas
+#   - hyp3_sdk
+#   - ipyfilechooser
+#   - ipympl
+#   - ipywidgets
+#   - jupyterlab
+#   - matplotlib
+#   - numpy
+#   - oauth2client
+#   - opensarlab_lib
+#   - pandas
+#   - pip
+#   - pyarrow
+#   - pykrige
+#   - pyproj
+#   - pysheds
+#   - pytz
+#   - rasterio
+#   - scikit-fuzzy
+#   - scikit-learn
+#   - scipy
+#   - shapely  
+#   - pip:
+#     - url-widget
     
