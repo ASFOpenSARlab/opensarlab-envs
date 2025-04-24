@@ -1,30 +1,31 @@
-name: NISAR_SE
-channels:
-  - conda-forge
-  - pyrocko
-dependencies:
-  - python=3.11
-  - asf_search
-  - awscli
-  - boto3
-  - cython
-  - defusedxml
-  - geopandas
-  - hyp3_sdk
-  - ipympl
-  - ipyfilechooser
-  - ipykernel
-  - matplotlib-base
-  - nbdime
-  - netcdf4
-  - numpy>=1.16,<1.24.0
-  - opensarlab_lib
-  - pip
-  - pv
-  - pyhdf
-  - pyrocko
-  - rasterio
-  - scipy 
-  - pip:
-    - git+https://github.com/insarlab/MintPy.git@5683092
-    - url-widget
+# This conda environment is deprecated but cannot be removed from a nbgitpuller-managed repo without impacting users
+# name: NISAR_SE
+# channels:
+#   - conda-forge
+#   - pyrocko
+# dependencies:
+#   - python=3.11
+#   - asf_search
+#   - awscli
+#   - boto3
+#   - cython
+#   - defusedxml
+#   - geopandas
+#   - hyp3_sdk
+#   - ipympl
+#   - ipyfilechooser
+#   - ipykernel
+#   - matplotlib-base
+#   - nbdime
+#   - netcdf4
+#   - numpy>=1.16,<1.24.0
+#   - opensarlab_lib
+#   - pip
+#   - pv
+#   - pyhdf
+#   - pyrocko
+#   - rasterio
+#   - scipy 
+#   - pip:
+#     - git+https://github.com/insarlab/MintPy.git@5683092
+#     - url-widget

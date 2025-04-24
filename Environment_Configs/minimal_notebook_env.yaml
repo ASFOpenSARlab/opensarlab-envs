@@ -1,4 +1,4 @@
-name: minimal_notebook
+name: minimal_osl_notebook
 channels:
   - conda-forge
 dependencies:

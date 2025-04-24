@@ -1,9 +1,10 @@
-name: train
-channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - pip
+# This conda environment is deprecated but cannot be removed from a nbgitpuller-managed repo without impacting users
+# name: train
+# channels:
+#   - conda-forge
+#   - defaults
+# dependencies:
+#   - pip
   
 # This conda environment is deprecated
 # TRAIN is no longer supported in OpenSARLab
