@@ -1,31 +1,3 @@
-name: osl_mintpy
-channels:
-  - conda-forge
-dependencies:
-  - aria-tools
-  - asf_search 
-  - bokeh
-  - boto3
-  - cartopy=0.22.0=py39h40cae4c_0 # most recent version breaks matplotlib widget and opensarlab_lib AOI_selector
-  - dask
-  - distributed==2023.4.1 # later versions require Python>=3.10
-  - gdal
-  - geopandas
-  - h5py
-  - hyp3_sdk
-  - ipympl
-  - ipyfilechooser
-  - ipykernel
-  - matplotlib-base
-  - mintpy
-  - numpy<1.24.0
-  - opensarlab_lib
-  - pandas
-  - pip
-  - rasterio
-  - rioxarray
-  - scipy
-  - shapely
-  - xarray
-  - pip:
-    - url-widget
+# This environment  config file is deprecated but cannot be removed from a nbgitpuller-managed repo without impacting users
+# Find the current MintPy notebooks and an environment to run them in OSL here: 
+# https://opensciencelab.asf.alaska.edu/lab/smce-prod-opensarlab/hub/user-redirect/lab/tree/Data_Recipe_Jupyter_Books/opensarlab_MintPy_Recipe_Book

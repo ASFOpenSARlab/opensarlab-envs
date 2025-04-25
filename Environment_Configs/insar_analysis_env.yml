@@ -1,8 +1,1 @@
-name: insar_analysis
-channels:
-  - conda-forge
-dependencies:
-  - pip
-
-# This conda environment is deprecated
-    
+# This conda environment  config file is deprecated but cannot be removed from a nbgitpuller-managed repo without impacting users
