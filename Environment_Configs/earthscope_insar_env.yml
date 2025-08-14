@@ -1,3 +1,4 @@
+---
 name: earthscope_insar
 channels:
   - conda-forge
@@ -11,6 +12,8 @@ dependencies:
   - ipykernel
   - ipympl
   - isce2
+  - libgdal-hdf5
+  - libgdal-netcdf
   - mintpy
   - netcdf4
   - pip
@@ -19,8 +22,8 @@ dependencies:
   - sardem
   - rioxarray
   - rasterio
+  - sentineleof
   - pip:
-    - url-widget
-    - okada_wrapper
-    - kite
-
+      - url-widget
+      - okada_wrapper
+      - kite
