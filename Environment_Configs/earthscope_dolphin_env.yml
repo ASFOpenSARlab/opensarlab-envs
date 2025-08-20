@@ -1,0 +1,26 @@
+name: earthscope_dolphin_env
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip
+  - ipykernel # To register for the kernel
+  - dolphin>=0.42.0
+  - rioxarray
+  - opera-utils>=0.24
+  # For nice plotting
+  - matplotlib
+  - ultraplot
+  - bqplot
+  - cmap
+  - titiler-core
+  - pydantic-settings
+  - boto3
+  - uvicorn
+  - ipympl
+  - ipyleaflet
+  - ipywidgets
+  - pip:
+    - bowser-insar
+    - synth-insar
