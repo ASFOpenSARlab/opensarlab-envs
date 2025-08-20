@@ -77,7 +77,7 @@ deprecated                1.2.18             pyhd8ed1ab_0    conda-forge
 distributed               2025.7.0           pyhe01879c_0    conda-forge
 dnspython                 2.7.0              pyhff2d567_1    conda-forge
 docstring_parser          0.17.0             pyhd8ed1ab_0    conda-forge
-dolphin                   0.41.0             pyhd8ed1ab_0    conda-forge
+dolphin                   0.42.0             pyhd8ed1ab_0    conda-forge
 donfig                    0.8.1.post1        pyhd8ed1ab_1    conda-forge
 double-conversion         3.3.1                h5888daf_0    conda-forge
 email-validator           2.2.0              pyhd8ed1ab_1    conda-forge

@@ -6,11 +6,9 @@ dependencies:
   - python=3.12
   - pip
   - ipykernel # To register for the kernel
-  - dolphin
+  - dolphin>=0.42.0
   - rioxarray
   - opera-utils>=0.24
-  # - isce3
-  # - isce2
   # For nice plotting
   - matplotlib
   - ultraplot
