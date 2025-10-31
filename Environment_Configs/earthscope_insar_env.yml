@@ -1,4 +1,5 @@
----
+# This conda environment config file is deprecated but cannot be removed from a nbgitpuller-managed repo without impacting users
+
 name: earthscope_insar
 channels:
   - conda-forge

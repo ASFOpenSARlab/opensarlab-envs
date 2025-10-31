@@ -1,0 +1,17 @@
+name: isce2_insar
+channels:
+  - conda-forge
+  - pyrocko
+dependencies:
+  - aria-tools
+  - boto3
+  - ipykernel
+  - ipympl
+  - isce2
+  - gdal
+  - pip
+  - pyrocko
+  - pip:
+      - url-widget
+      - okada_wrapper
+      - kite
