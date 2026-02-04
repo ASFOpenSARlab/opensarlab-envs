@@ -1,6 +1,7 @@
 name: minimal_osl_notebook
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   - ipympl
   - ipykernel

@@ -2,6 +2,7 @@ name: isce2_insar
 channels:
   - conda-forge
   - pyrocko
+  - nodefaults
 dependencies:
   - aria-tools
   - boto3

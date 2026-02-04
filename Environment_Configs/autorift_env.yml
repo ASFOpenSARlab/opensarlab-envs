@@ -1,6 +1,7 @@
 name: autorift
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   - autorift>=1.5.0
   - gdal>=3

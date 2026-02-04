@@ -1,6 +1,7 @@
 name: machine_learning
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   - asf_search
   - gdal

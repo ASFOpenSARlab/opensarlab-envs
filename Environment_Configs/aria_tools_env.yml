@@ -1,6 +1,7 @@
 name: ARIA-tools
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   - affine
   - aria-tools==1.2
