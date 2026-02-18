@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - asf_search
+  - cryptography>=46.0.5
   - gdal
   - hyp3_sdk
   - ipyfilechooser
