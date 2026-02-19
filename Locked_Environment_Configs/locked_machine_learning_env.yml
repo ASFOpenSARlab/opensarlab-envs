@@ -8,8 +8,8 @@ dependencies:
   - _x86_64-microarch-level=1=3_x86_64
   - absl-py=2.4.0=pyhd8ed1ab_0
   - alsa-lib=1.2.15.3=hb03c661_0
-  - asf_search=12.0.0=pyhd8ed1ab_0
-  - asf_search-base=12.0.0=pyhd8ed1ab_0
+  - asf_search=12.0.1=pyhd8ed1ab_0
+  - asf_search-base=12.0.1=pyhd8ed1ab_0
   - asttokens=3.0.1=pyhd8ed1ab_0
   - astunparse=1.6.3=pyhd8ed1ab_3
   - backports.zstd=1.3.0=py312h90b7ffd_0
@@ -25,13 +25,11 @@ dependencies:
   - cairo=1.18.4=he90730b_1
   - cartopy=0.25.0=py312hf79963d_1
   - certifi=2026.1.4=pyhd8ed1ab_0
-  - cffi=2.0.0=py312h460c074_1
   - charset-normalizer=3.4.4=pyhd8ed1ab_0
   - ciso8601=2.3.3=py312h5253ce2_1
   - comm=0.2.3=pyhe01879c_0
   - contourpy=1.3.3=py312h0a2e395_4
   - cpython=3.12.12=py312hd8ed1ab_2
-  - cryptography=46.0.5=py312ha4b625e_0
   - cycler=0.12.1=pyhcf101f3_2
   - cyrus-sasl=2.1.28=hd9c7081_0
   - dateparser=1.3.0=pyhd8ed1ab_0
@@ -198,7 +196,6 @@ dependencies:
   - pthread-stubs=0.4=hb9d3cd8_1002
   - ptyprocess=0.7.0=pyhd8ed1ab_1
   - pure_eval=0.2.3=pyhd8ed1ab_1
-  - pycparser=2.22=pyh29332c3_1
   - pygments=2.19.2=pyhd8ed1ab_0
   - pyparsing=3.3.2=pyhcf101f3_0
   - pyproj=3.7.2=py312h9b6a7d9_2
